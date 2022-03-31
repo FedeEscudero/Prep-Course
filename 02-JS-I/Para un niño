@@ -1,0 +1,37 @@
+A) VARIABLE: es la forma de darle un valor a algo y guardarlo para usarlo mas tarde.
+    Por ejemplo, si escribimos: 
+    var miNombre; 
+    estamos definiendo simplemente una variable. Sin embargo, falta asignarle un valor.
+    var sumarDosNumeros = 2 + 2
+    el signo = es lo mismo que decir que mi variable es igual a tal cosa. 
+    Ahora la variable sumarDosNumeros es igual a 2 + 2. 
+    Cuando escribamos sumarDosNumeros y demos enter el programa arrojara el resultado 4
+    Esto no quiere decir que el valor de var sumarDosNumeros sea siempre 4. Puede cambiar.
+    Si queremos que el valor de una variable sea permanente o constante debemos escribir:
+    const sumarDosNumeros = 2 + 2 
+    
+    B) STRING: es un tipo de dato. Puede ser cualquier palabra siempre y cuando se escriba entre comillas (' ')
+    Por ejemplo:
+    var miNombre = 'Fede'
+
+    C) FUNCIONES: las funciones guardan bloques de codigo, es decir, todo lo que escribamos dentro de {---}, para poder ejecutarlo cada vez que se mencione su nombre 
+    Por ejemplo: 
+    function printSum (num1, num2) { 
+        print (num1 + num2); 
+        } 
+        printSum (5, 2)
+    cuando invoquemos la funcion printSum sumara 5 + 2.
+    Como se puede observar al principio cuando definimos la funcion utilizamos parametros (num1, num2), pero cuando la invocamos esos parametros son reemplazos por argumentos, valores concretos, es decir, 5 y 2 por ejemplo.
+    D) DECLARACIONES: las declaraciones de condicion if (en catellano if significa SI) sirven para ejecutar acciones comprendidas dentro de un bloque de codigo ({---}) si la condicion es verdadera. Por ejemplo: 
+    if (22>3){
+        2+2
+    } 
+    4 = true
+    si 22 es mayor que 3 sumar 2+2.
+    Si la condición es falsa, podemos utilizar else (si no)
+    if (22<13){
+        'Federico'}
+    else {'Tomas'}
+    el programa arrojara el valor que cumpla con la condicion de if. Como 13 no es mayor que 22 no arrojara el 'Fede' si no 'Tomas'.
+
+    E) VALORES BOOLEANOS: son valores que en JS tienen dos opciones: verdadero o falso. 
